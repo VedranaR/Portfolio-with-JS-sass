@@ -43,8 +43,8 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
   visibility: hidden;
+  opacity: 0.98;
 
   &.show {
     visibility: visible;
@@ -68,7 +68,7 @@
     color: #fff;
     background: darken($primary-color, 5);
     list-style: none;
-    //transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
     @include easeOut;
 
     &.show {
@@ -90,8 +90,7 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/portrait_small.png");
-      background-repeat: none;
+      background: url("../img/portrait.png");
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }
